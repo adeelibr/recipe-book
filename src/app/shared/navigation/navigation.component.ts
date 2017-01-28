@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavigationComponent implements OnInit {
 
+  title = 'Recipe Book';
+
   constructor() { }
 
   ngOnInit() {
